@@ -24,10 +24,10 @@ public class LoginTest {
 		
 		driver.get("https://trial.rivers.im/");
 		
-		
-		
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/form/div[1]/input")).sendKeys("+91");
-		driver.findElement(By.id("phoneNumber")).sendKeys("8527799401");
+		driver.findElement(By.id("phoneNumber")).sendKeys("8377099577");
+		
+		driver.findElement(By.xpath("//div[1]/div/div[1]/div/form/button"));
 	
 	}
 	
